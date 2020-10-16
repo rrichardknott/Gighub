@@ -32,13 +32,18 @@ textarea {
 }
 
 /*My Styles*/
+
+.colorRed{
+    color: red!important;
+}
+
 .displayFlex{
     display: flex;
 }
 
 /*Create View*/
 #createSaveButton{
-    width: 10%;
+    width: 100px;
     height: 40px;
     color: white;
     background-color: dodgerblue;
