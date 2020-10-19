@@ -1,6 +1,12 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Garamond', sans-serif;
+    font-size: 21px;
+}
+
+html{
+    
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -23,10 +29,6 @@ textarea {
     max-width: 280px;
 }
 
-.width200{
-    width: 200px;
-}
-
 .marginRight2{
     margin-right: 20px;
 }
@@ -41,14 +43,58 @@ textarea {
     display: flex;
 }
 
-/*Create View*/
-#createSaveButton{
+.form-control{
+    font-size: 21px;
+    padding: 20px 15px;
+    border-radius: 9px;
+    box-shadow: none!important;
+}
+
+/*Layout view*/
+.navbar-inverse {
+    background-color: #00008b;
+    border-color: #00008b;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-inverse{
+    color: #ffffff;
+    
+}
+
+.navbar-brand {
+    font-size: 32px;
+    font-family: 'Bilbo Swash Caps', cursive;
+    
+    padding: 15px 25px 0 0;
+    color: orangered!important;
+    text-transform: capitalize;
+}
+
+#navbarDropDownLogOffArrow{
+    margin-left: 10px;
+}
+
+.dropdown-menu{
+    font-size: 21px;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {    
+    background-color:#010169;
+}
+
+
+    /*Create View*/
+    #createSaveButton {
     width: 100px;
     height: 40px;
     color: white;
-    background-color: dodgerblue;
-    border: 1px solid #cccccc;
-    
+    font-size: 21px;
+    background-color: #00008b;
+    border-radius: 7px;
 }
 
 #createSaveButton:hover {
@@ -64,4 +110,6 @@ footer{
     left: 45%;  
 
 }
+
+
 
