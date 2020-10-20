@@ -35,6 +35,198 @@ textarea {
 
 /*My Styles*/
 
+/*=====================================MY STYLES=======================================*/
+
+.applyFlexBox {
+    display: flex;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.backgroundBlack {
+    background-color: black;
+}
+
+.backgroundCharcoal {
+    background-color: #303030;
+}
+
+.backgroundWhite {
+    background-color: white;
+}
+
+.backgroundDarkBlue {
+    background-color: #00008b;
+}
+
+.backgroundGreen {
+    background-color: green;
+}
+
+.backgroundRed {
+    background-color: darkred
+}
+
+.backgroundYellow {
+    background-color: goldenrod;
+}
+
+.backgroundPurple {
+    background-color: #663399;
+}
+
+.colorBlack {
+    color: black;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.colorDarkBlue {
+    color: #00008b;
+}
+
+.colorBrightRed {
+    color: #E10600;
+}
+
+.colorDarkRed {
+    color: darkred;
+}
+
+.colorGoldenRod {
+    color: goldenrod;
+}
+
+.colorGreen {
+    color: green;
+}
+
+.colorDarkGreen {
+    color: darkgreen;
+}
+
+table {
+    border: 1px solid black !important;
+}
+
+thead {
+    background-color: lightgray;
+}
+
+th, td {
+    border: 1px solid black !important;
+}
+
+.width-7 {
+    width: 7%;
+}
+
+.width-8 {
+    width: 8%;
+}
+
+.width-9 {
+    width: 9%;
+}
+
+.width-10 {
+    width: 10%;
+}
+
+.width-18 {
+    width: 18%;
+}
+
+.width-20 {
+    width: 20%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.width-40 {
+    width: 40%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.width-90 {
+    width: 90%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.marginTop-2{
+    margin-top: 2px;
+}
+
+.marginTop-3 {
+    margin-top: 3px;
+}
+
+.marginTop-4 {
+    margin-top: 4px;
+}
+
+.marginTop-5 {
+    margin-top: 5px;
+}
+
+.marginTop-6 {
+    margin-top: 6px;
+}
+
+.marginTop-7 {
+    margin-top: 7px;
+}
+
+.marginTop-8 {
+    margin-top: 8px;
+}
+
+.marginTop-9 {
+    margin-top: 9px;
+}
+
+.marginTop-10 {
+    margin-top: 10px;
+}
+
+.listStyleTypeNone {
+    list-style-type: none;
+}
+
+.textDecorationUnderline {
+    text-decoration: underline;
+}
+
+.displayNone {
+    display: none;
+    margin-top: 0;
+}
+
+
 .colorRed{
     color: red!important;
 }
@@ -45,7 +237,7 @@ textarea {
 
 .form-control{
     font-size: 21px;
-    padding: 20px 15px;
+    height: 43px;
     border-radius: 9px;
     box-shadow: none!important;
 }
@@ -67,8 +259,7 @@ textarea {
 
 .navbar-brand {
     font-size: 32px;
-    font-family: 'Bilbo Swash Caps', cursive;
-    
+    font-family: 'Bilbo Swash Caps', cursive;    
     padding: 15px 25px 0 0;
     color: orangered!important;
     text-transform: capitalize;
@@ -101,7 +292,10 @@ textarea {
         
     border-color: #66afe9;
     outline: 0;    
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 
+                0 0 8px rgba(102, 175, 233, 0.6);
+    background-color: orangered;
+    box-shadow: none;
 }
 
 footer{
