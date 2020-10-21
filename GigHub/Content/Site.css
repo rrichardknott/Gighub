@@ -77,6 +77,10 @@ a {
     background-color: #663399;
 }
 
+.backgroundOrangeRed{
+    background-color: orangered;
+}
+
 .colorBlack {
     color: black;
 }
@@ -213,6 +217,14 @@ th, td {
     margin-top: 10px;
 }
 
+.marginTop-20{
+    margin-top: 20px;
+}
+
+.marginTop-40 {
+    margin-top: 40px;
+}
+
 .listStyleTypeNone {
     list-style-type: none;
 }
@@ -261,6 +273,7 @@ th, td {
     font-size: 32px;
     font-family: 'Bilbo Swash Caps', cursive;    
     padding: 15px 25px 0 0;
+    letter-spacing: 2.0px;
     color: orangered!important;
     text-transform: capitalize;
 }
@@ -277,14 +290,110 @@ th, td {
     background-color:#010169;
 }
 
+/*Home Index View*/
+#homeIndexUL{    
+    list-style: none;
+    width: 300px;
+}
 
-    /*Create View*/
-    #createSaveButton {
+#homeIndexLI{
+    position: relative;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+#homeIndexDetails{
+    position: absolute;
+    top: 0;
+    left: 90px;
+}
+
+.date{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    width: 80px;
+    padding: 3px 6px;
+    border-radius: 8px    
+}
+
+.month {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.day{
+    background-color: #f7f7f7;
+    color: #333333;
+    font-size: 24px;
+    padding: 6px 12px;
+    width: 80px;
+    right: 6px;
+    top: 6px;
+    text-align: center;
+    position: relative;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.artist{
+    font-weight: bold;
+    display: block;
+}
+
+.details{
+    width: 150px;    
+}
+
+.genre{
+    font-size: 18px;  
+    padding-left: 0;
+    position: relative;
+}
+
+.genre button{
+   
+    border-radius:8px;    
+    text-transform: capitalize;
+    font-size: 14px;
+    
+}
+
+.going{
+    background-color: orangered;
+    text-transform: uppercase!important;
+    border: none;
+    color: white;
+}
+
+#followingLink{
+    margin-left: 0;
+    position: absolute;
+    left: -10px;
+    bottom: -30px;
+
+}
+
+.borderSolidBlack {
+    border: solid 1px black;
+}
+
+.borderNone{
+    border: none;
+}
+
+.upperCase{
+    text-transform: uppercase;
+}
+
+/*Create View*/
+#createSaveButton {
     width: 100px;
     height: 40px;
     color: white;
     font-size: 21px;
-    background-color: #00008b;
+    background-color: orangered!important;
     border-radius: 7px;
 }
 
@@ -293,8 +402,7 @@ th, td {
     border-color: #66afe9;
     outline: 0;    
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 
-                0 0 8px rgba(102, 175, 233, 0.6);
-    background-color: orangered;
+                0 0 8px rgba(102, 175, 233, 0.6);    
     box-shadow: none;
 }
 
